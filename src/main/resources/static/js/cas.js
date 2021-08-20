@@ -146,10 +146,16 @@ function ie11Fix() {
 
 	if (isIE) {
 		var unInput = document.querySelector('#usernameSection #username');
-		unInput.setAttribute('placeholder', 'UH Username');
+        if (unInput) {
+            unInput.setAttribute('placeholder', 'UH Username');
+        }
+		
 
 		var pwInput = document.querySelector('.h-mdc-text-field_password #password');
-		pwInput.setAttribute('placeholder', 'UH Password');
+        if (pwInput) {
+            pwInput.setAttribute('placeholder', 'UH Password');
+        }
+		
 	}
 }
 
