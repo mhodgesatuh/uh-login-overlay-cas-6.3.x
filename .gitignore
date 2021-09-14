@@ -31,5 +31,5 @@ build/bootWarMainClassName
 .settings/
 .project
 .classpath
-
 src/main/resources/templates/error/workspace.code-workspace
+.vscode
